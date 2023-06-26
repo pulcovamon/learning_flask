@@ -38,6 +38,13 @@
                 </ul>
             </div>
         </nav>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, massage in messages %}
+                    <p>{{ message }}</p>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
         <!-- Future Content here -->
         {% block content %}
 
