@@ -12,6 +12,8 @@ flask = "^2.3.1"
 flask-login = "^0.6.2"
 flask-sqlalchemy = "^3.0.3"
 sqlalchemy = "^2.0.16"
+flask-wtf = "^1.1.1"
+wtforms = "^3.0.1"
 
 
 [build-system]
